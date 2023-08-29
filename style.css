@@ -1,0 +1,29 @@
+#mapBoard{
+    background: url('map.png');
+    width: 940px;
+    height: 940px;
+    border: 2px solid black;
+    display: grid;
+    background-repeat: no-repeat;
+    grid-template-rows: repeat(50, 1fr);
+    grid-template-columns: repeat(50, 1fr);
+    
+}
+
+
+.target{
+    
+    grid-row-start: 5;
+    grid-column-start: 31;
+    background-color: black;
+}
+
+.grid-cell {
+    border: 1px solid black; /* Border creates the appearance of lines */
+    box-sizing: border-box; /* Ensures the border is included in the cell's dimensions */
+  }
+
+  #map{
+    height: 90vh;
+    width: 90%;
+  }
