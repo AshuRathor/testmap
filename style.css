@@ -1,7 +1,7 @@
 #mapBoard{
     background: url('map.png');
-    width: 940px;
-    height: 940px;
+    width: 100px;
+    height: 100px;
     border: 2px solid black;
     display: grid;
     background-repeat: no-repeat;
